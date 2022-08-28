@@ -1,0 +1,1 @@
+If you're using OBS Studio 27+ on Windows 10 1809 or earlier, your system must be configured to run OBS Studio on a specific GPU depending on the type of capture you are trying to do. See the [GPU Selection Guide](https://obsproject.com/kb/gpu-selection-guide) for instructions.

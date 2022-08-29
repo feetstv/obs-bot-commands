@@ -6,6 +6,6 @@ Use a macOS Screen Capture/Window source to capture the Elgato Game Capture app 
 
 On Intel-based Macs, use the above method **or** [OBS Link](https://help.elgato.com/hc/articles/360031363132), an NDI-based workaround that adds compatibility with OBS Studio. This device is **not** compatible with Apple Silicon-based Macs.
 
-**Elgato HD60 S+**
+**Elgato HD60 S+ & Cam Link**
 
 You do not need any special apps to use this device with OBS Studio.

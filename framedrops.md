@@ -1,1 +1,1 @@
-If your stream is disconnecting or OBS Studio reports dropped frames, see [Stream Connection Troubleshooting](https://obsproject.com/kb/stream-connection-troubleshooting) for advice on fixing your network connection.
+If your stream is disconnecting or OBS Studio reports dropped frames, follow [Stream Connection Troubleshooting](https://obsproject.com/kb/stream-connection-troubleshooting) to improve your connection to the stream servers.

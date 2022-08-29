@@ -1,1 +1,1 @@
-Some third-party applications can prevent OBS Studio from being able to capture the screen, audio, or may even cause crashes. See [Known Application Conflicts](https://obsproject.com/kb/known-conflicts) for a list of known conflicts.
+Some third-party applications can prevent OBS Studio from being able to capture the screen, audio, or may even cause crashes. See [Known Application Conflicts](https://obsproject.com/kb/known-conflicts) for a list of such applications.

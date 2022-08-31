@@ -1,1 +1,1 @@
-OBS Studio comes with a variety of themes and supports custom, user-made themes. See the [Themes Guide](https://obsproject.com/kb/themes-guide) for more information, or download user-made themes from the [OBS Studio forums](https://obsproject.com/forum/resources/categories/themes.10/).
+OBS Studio comes with a variety of themes and supports custom, user-made themes. See the [Themes Guide](https://obsproject.com/kb/themes-guide) for more information or download user-made themes from the [OBS Studio forums](https://obsproject.com/forum/resources/categories/themes.10/).

@@ -1,0 +1,27 @@
+name: Compile README.md
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import os
+            file_names = sorted(os.listdir('commands'))
+            text = ""
+            for file_name in file_names:
+              if ".md" in file_name and file_name != "README.md":
+                text += f"# {file_name.replace('.md', '')}\n\n"
+                with open(f"commands/{file_name}", "r") as file:
+                  text += f"{file.read()}\n\n---\n\n"
+            with open("README.md", "w") as file:
+              file.write(text)

@@ -29,8 +29,8 @@ If you have problems with high CPU usage or encoder overload, follow [Encoding P
 # filters
 
 You can fine-tune your video and audio sources using filters. To access Filters, you can either:
-1. click on the Filters button on the source toolbar, or
-2. right click on your source (or click the Gear icon next to an audio source) and select Filters
+**1.** click on the Filters button on the source toolbar, or
+**2.** right click on your source (or click the Gear icon next to an audio source) and select Filters
 
 See the [Filters Guide](https://obsproject.com/kb/filters-guide) for more information.
 
@@ -42,6 +42,8 @@ See the [Filters Guide](https://obsproject.com/kb/filters-guide) for more inform
 Running a game without vertical sync (V-Sync) or a frame rate limiter may cause performance issues. This is because all of the GPU's resources are allocated to running your game; there won't be enough resources left for OBS Studio.
 
 [Enable V-Sync or set a reasonable frame rate limit](https://obsproject.com/kb/encoding-performance-troubleshooting#limit-game-framerate) that your GPU can handle without hitting 100% usage. You may also need to [reduce graphics settings](https://obsproject.com/kb/encoding-performance-troubleshooting#reduce-graphical-settings) in the game.
+
+If you have any other graphical issues, follow [Encoding Performance Troubleshooting](https://obsproject.com/kb/encoding-performance-troubleshooting).
 
 
 ---
@@ -66,7 +68,7 @@ If you have any issues, follow [Game Capture Troubleshooting](https://obsproject
 
 # gamedvr
 
-On Windows 10 1803 and prior, we recommend disabling the "Game DVR Background Recording" feature. This will ensure OBS Studio has access to the resources needed for realtime streaming/recording. Follow [Windows Gaming Features Troubleshooting] for instructions.
+On Windows 10 1803 and prior, we recommend disabling the "Game DVR Background Recording" feature. This will ensure OBS Studio has access to the resources needed for realtime streaming/recording. Follow [Windows Gaming Features Troubleshooting](https://obsproject.com/kb/windows-gaming-features-troubleshooting) for instructions.
 
 On Windows 10 1809 (and later) and Windows 11, you can keep safely this feature enabled without impacting OBS Studio performance.
 
@@ -119,17 +121,17 @@ To grant OBS Studio these permissions, follow these steps:
 
 **Automatically in OBS Studio 28**
 
-1. Click on the **OBS Studio** menu (next to the Apple menu)
-2. Click on **Review App Permissions**
-3. Click on the buttons and follow the prompts
+**1.** Click on the **OBS Studio** menu (next to the Apple menu)
+**2.** Click on **Review App Permissions**
+**3.** Click on the buttons and follow the prompts
 
 **Manually**
 
-1. Open System Preferences / System Settings
-2. Click on the **Security & Privacy** (10.15 - 12) button or **Privacy & Security** item (13)
+**1.** Open System Preferences / System Settings
+**2.** Click on the **Security & Privacy** (10.15 - 12) button or **Privacy & Security** item (13)
     - 10.15 - 12 only: click on the Privacy tab at the top
-3. Click on 'Screen Recording', 'Camera', 'Microphone', and 'Accessibility' to manage app permissions
-4. Click to enable the permission for OBS Studio
+**3.** Click on 'Screen Recording', 'Camera', 'Microphone', and 'Accessibility' to manage app permissions
+**4.** Click to enable the permission for OBS Studio
 
 
 ---
@@ -160,8 +162,8 @@ These versions are no longer supported. To use a supported version, please [upda
 # minecraft
 
 To capture Minecraft: Java Edition on Windows using a Game Capture source:
-1. set the Game Capture mode to "Capture specific window"
-2. select javaw/minecraft in the "Window" drop down
+**1.** set the Game Capture mode to "Capture specific window"
+**2.** select javaw/minecraft in the "Window" drop down
 
 If you still have issues, follow [Minecraft: Java Edition Troubleshooting](https://obsproject.com/kb/minecraft-java-edition-troubleshooting).
 
@@ -170,12 +172,12 @@ If you still have issues, follow [Minecraft: Java Edition Troubleshooting](https
 
 # new
 
-If you're new to OBS Studio:
+👋 If you're new to OBS Studio:
 - follow the 5-step [Quick Start Guide](https://obsproject.com/kb/quick-start-guide)
 - follow the [Stream Layout Tutorial](https://obsproject.com/kb/stream-tutorial-1-game)
 - for more in-depth information, see the [OBS Studio Overview Guide](https://obsproject.com/kb/obs-studio-overview)
 
-If you prefer video guides:
+🎥 If you prefer video guides:
 - watch [Nerd or Die's video guide](https://youtube.com/watch?v=5rlrDIwnGGQ&t=0s&list=PLT3Ure7_kYHwj8oT3AV-pZ4_r7yp6mDg-)
 - watch [EposVox's OBS Master Class](https://youtube.com/watch?v=nK-Mu7nw5EA&list=PLzo7l8HTJNK-IKzM_zDicTd2u20Ab2pAl)
 
@@ -212,7 +214,7 @@ OBS Studio comes with a variety of themes and supports custom, user-made themes.
 
 # videocall
 
-To share your OBS Studio output with your video call applications such as Discord, Skype, or Teams — including video and audio — follow the [Video Call Streaming Guide](https://obsproject.com/kb/video-call-streaming-guide).
+To share your OBS Studio output with your video call applications such as Discord, Skype, or Teams — including video and audio — follow the [Video Call Streaming Tutorial](https://obsproject.com/kb/video-call-streaming-tutorial).
 
 You can also share just video with the [virtual camera](https://obsproject.com/kb/virtual-camera-guide).
 
